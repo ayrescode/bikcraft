@@ -3,12 +3,24 @@ body {
   margin: 0px;
 }
 
+h1,
+ul,
+p {
+  margin: 0px;
+}
 ul {
   list-style: none;
   padding: 0px;
-  margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 .header-bg {
   background-color: #000;
 }
@@ -22,6 +34,7 @@ ul {
   margin: 0 auto;
   padding: 20px;
   gap: 20px;
+  box-sizing: border-box;
 }
 
 .header-menu {
@@ -31,7 +44,6 @@ ul {
 }
 .header-menu a {
   display: inline-block;
-  text-decoration: none;
   color: white;
   padding: 16px 0px;
   font-size: 18px;
@@ -49,6 +61,53 @@ ul {
 }
 .header-menu a:hover:after {
   width: 100%;
+}
+
+.introducao-bg {
+  background-color: #000;
+  color: #fff;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.introducao h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+.introducao p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+.introducao a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #320;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px 32px;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+.introducao a:hover {
+  background: linear-gradient(#ffb60d, f2a50c);
+}
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 80px;
+}
+.introducao-conteudo span {
+  color: #fb0;
 }
 
 @media (max-width: 800px) {
