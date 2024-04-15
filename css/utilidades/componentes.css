@@ -1,3 +1,8 @@
+.container {
+  width: 1200px; /* o tamanho máximo */
+  max-width: calc(100dvw - 60px); /* uma margem de 30 pra cada lado */
+  margin: 0 auto; /* centraliza o conteúdo */
+}
 .botao {
   display: inline-block;
   text-transform: uppercase;
