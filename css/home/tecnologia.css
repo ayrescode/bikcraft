@@ -15,6 +15,7 @@
   object-fit: cover;
   object-position: left;
 }
+
 .tecnologia-conteudo {
   padding-top: 160px;
   padding-bottom: 160px;
@@ -28,10 +29,12 @@
 .tecnologia-conteudo h2 {
   margin-bottom: 32px;
 }
+
 .tecnologia-conteudo > p {
   margin-bottom: 20px;
 }
-.tecnologia-conteudo a {
+
+.tecnologia a {
   margin-bottom: 80px;
 }
 
